@@ -489,7 +489,7 @@ body {
   display: block;
   width: 32px;
   height: 32px;
-  background-image: url(../images/icon-done-green.svg);
+  background-image: url('../images/icons/icon-done-green.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -587,7 +587,7 @@ body {
   gap: 15px;
   max-width: 360px;
   width: 100%;
-  min-height: 610px;
+  min-height: 810px;
 }
 
 .product__img {
@@ -617,7 +617,48 @@ body {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  flex: 1;
+
+}
+
+.product__how {
+  font-style: italic;
+  margin-bottom: 14px;
+    flex: 1;
+}
+
+.product__how-title {
+  color: #0d861b;
+  margin-bottom: 12px;
+}
+
+.product__how-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.product__how-item {
+  display: flex;
+  gap: 10px;
+}
+
+.product__how-item::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16x;
+  flex-shrink: 0;
+  background-image: url('../images/icons/icon-done-2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product__how-suitable span {
+  font-weight: 600;
+  color: #3ac04a;
+  text-transform: uppercase;
 }
 
 .product__bottom {
