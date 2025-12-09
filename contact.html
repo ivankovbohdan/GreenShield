@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="GreenShield logo" />
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Home</a>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="shop.html">Shop</a>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="order.html"
+                >Order</a
+              >
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__buttons">
+          <button
+            class="header__phone-button icon-button icon-button--phone"
+          ></button>
+          <button
+            class="header__mail-button icon-button icon-button--mail"
+          ></button>
+          <button
+            class="header__cart-button icon-button icon-button--cart"
+          ></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="contact section">
+        <img class="contact__decor-img contact__decor-img--1 decor-img" src="images/about/about-photo-2.png" alt="Product image">
+        <img class="contact__decor-img contact__decor-img--2 decor-img" src="images/about/about-photo-3.png" alt="Product image">
+
+
+        <div class="container">
+          <h1 class="contact__title title">Contact Us</h1>
+
+          <form class="contact__form form">
+            <label class="form__label" for="name">Your Name</label>
+            <input class="form__input" type="text" placeholder="Enter your full name" id="name" />
+
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" placeholder="Your email address" id="email"/>
+
+            <label class="form__label" for="message">Your Messgae</label>
+            <textarea class="form__input form__input--big" placeholder="Your message" id="message"></textarea>
+
+            <button class="form__button button" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="GreenShield logo" />
+        </a>
+
+        <ul class="footer__socials socials">
+          <li class="socials__item">
+            <a
+              href="#"
+              class="icon-button socials__link socials__link--facebook"
+            ></a>
+          </li>
+          <li class="socials__item">
+            <a
+              href="#"
+              class="icon-button socials__link socials__link--instagram"
+            ></a>
+          </li>
+          <li class="socials__item">
+            <a
+              href="#"
+              class="icon-button socials__link socials__link--linkedin"
+            ></a>
+          </li>
+        </ul>
+
+        <span class="footer__policy"
+          >© 2025 GreenShield.<br />
+          All rights reserved.</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
